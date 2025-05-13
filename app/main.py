@@ -27,6 +27,7 @@ async def lifespan(app: FastAPI):
     Application lifespan context manager.
     This can be used to initialize resources or perform setup tasks.
     """
+    logging.info("Hello World")
     # Startup logic
     logging.info("Starting application...")
 
